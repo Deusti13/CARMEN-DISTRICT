@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    z-index: 1000;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  section {
+    margin: 20px auto;
+  }
+  h1{
+    font-size: 2.69rem;
+    margin-left:100px;
+  }
+  
+  section h2 {
+    text-align: center; /* Center the headings */
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2.69rem;
+  }
+ 
+p{
+    margin-left: 100px;
+}
+  .our-core {
+    text-align: center;
+    margin: 0;
+    list-style: none;
+  }
+  ul{
+    margin-left: 100px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: #f9eaea;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 0 10px rgba(181, 179, 179, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 12px 12px; 
+  }
+  
+  .navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  .search{
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    border: none;
+    border-color: solid;
+  }
+  
+  .navbar .search-bar {
+    margin-left: 560px;
+    border: none;
+    border-color: #717171;
+  }
+  .search-bar{
+    border-radius: 30;
+  }
+  
+  .navbar input {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .date-container {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 50px;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .gov-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    gap: 30px;
+  }
+  
+  .gov-section, .about-gov, .gov-links {
+    flex: 1;
+    max-width: 30%;
+  }
+  
+  .gov-section h2 {
+    font-size: 12px;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .gov-section p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  
+  .about-gov h3, .gov-links h3 {
+    font-size: 12px;
+    color: #007bff;
+    margin: 15px 0 10px;
+  }
+  
+  .gov-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .gov-links li {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #0056b3;
+  }
+  .deped-logo{
+    height: 100px;
+    width: 100px;
+  }
+  .logo-time{
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    gap: 30px;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(196, 196, 196, 0.5);
+    margin-top: 63px;
+  }
+  .tag{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .logo{
+    margin-left: 75px;
+  }

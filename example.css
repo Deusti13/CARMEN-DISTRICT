@@ -1,0 +1,33 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  /* Navbar Items */
+  .nav-item {
+    color: white;
+    padding: 15px 20px;
+    margin: 0 10px;
+    text-align: center;
+    border: 2px solid #fff;  /* Adds border around the items */
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Hover Effect */
+  .nav-item:hover {
+    background-color: #444;
+    border-color: #ddd;  /* Changes border color on hover */
+  }
